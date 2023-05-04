@@ -28,7 +28,7 @@ public class runme {
             BufferedReader br = new BufferedReader(new FileReader(files[i]));
             String line;
             while ((line = br.readLine()) != null) {
-                if (line.contains("CHAT") && line.contains("username"))
+                if (line.contains("CHAT") && line.contains("[INSERT USERNAME]"))
                 {
                     System.out.println(line);
                 }
