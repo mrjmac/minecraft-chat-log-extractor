@@ -36,7 +36,7 @@ public class runme {
         File[] files = folder.listFiles();
         Arrays.sort(files);
         
-        //create starter files
+        // Create starter files
         for (int i = 0; i < files.length; i++)
         {
             if (files[i].getName().indexOf("debug") != -1 || files[i].getName().indexOf("latest") != -1 | files[i].getName().indexOf(".txt") != -1)
