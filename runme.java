@@ -94,7 +94,7 @@ public class runme {
                                       new FileInputStream(source.toFile()));
              FileOutputStream fos = new FileOutputStream(target.toFile())) {
 
-            // copy GZIPInputStream to FileOutputStream
+            // Copy GZIPInputStream to FileOutputStream
             byte[] buffer = new byte[1024];
             int len;
             while ((len = gis.read(buffer)) > 0) {
